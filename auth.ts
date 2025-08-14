@@ -74,7 +74,7 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
     Hubspot,
     Keycloak({ name: "Keycloak (bob/bob)" }),
     LinkedIn,
-    MicrosoftEntraId,
+    MicrosoftEntraId({id: "microsoft_entra_id"}),
     Netlify,
     Okta,
     Passkey({
